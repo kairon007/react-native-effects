@@ -6,7 +6,7 @@
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
-    "ios": "expo run:ios",
+    "ios": "expo run:ios --device",
     "prebuild": "expo prebuild",
     "prebuild:clean": "expo prebuild --clean"
   },

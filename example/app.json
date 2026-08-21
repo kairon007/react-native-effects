@@ -12,14 +12,19 @@
     },
     "ios": {
       "bundleIdentifier": "com.blazejkustra.rneffects",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "appleTeamId": "939M5FMJBY"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.blazejkustra.rneffects"
+      "package": "com.blazejkustra.rneffects",
+      "permissions": [
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
     },
     "plugins": [
       [

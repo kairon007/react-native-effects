@@ -32,6 +32,7 @@ import BannersScreen from './screens/BannersScreen';
 import InkBloomScreen from './screens/InkBloomScreen';
 import MaterialsScreen from './screens/MaterialsScreen';
 import BeerScreen from './screens/BeerScreen';
+import EspressoScreen from './screens/EspressoScreen';
 import LighterScreen from './screens/LighterScreen';
 import type { RootStackParamList } from './types';
 
@@ -111,6 +112,7 @@ export default function App() {
           <Stack.Screen name="InkBloomExample" component={InkBloomScreen} />
           <Stack.Screen name="MaterialsExample" component={MaterialsScreen} />
           <Stack.Screen name="BeerExample" component={BeerScreen} />
+          <Stack.Screen name="EspressoExample" component={EspressoScreen} />
           <Stack.Screen name="LighterExample" component={LighterScreen} />
         </Stack.Navigator>
       </NavigationContainer>

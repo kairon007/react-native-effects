@@ -29,6 +29,14 @@ const EXAMPLE_CATEGORIES: ExampleCategory[] = [
     image: require('../../assets/components/beer.png'),
   },
   {
+    id: 'espresso',
+    title: 'Espresso',
+    description: 'Tilt to sip, tap to pull a fresh shot with rich crema',
+    screen: 'EspressoExample',
+    color: '#c7782b',
+    image: require('../../assets/components/espresso.png'),
+  },
+  {
     id: 'materials',
     title: 'Materials',
     description: 'Natural material banners — tap to go full screen',
